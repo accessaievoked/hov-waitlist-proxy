@@ -1,0 +1,9 @@
+{
+  "name": "hov-waitlist-proxy",
+  "version": "1.0.0",
+  "description": "Waitlist proxy for House of Vaulte",
+  "private": true,
+  "engines": {
+    "node": "18.x"
+  }
+}
