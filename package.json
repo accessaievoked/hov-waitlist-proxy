@@ -4,6 +4,6 @@
   "description": "Waitlist proxy for House of Vaulte",
   "private": true,
   "engines": {
-    "node": "18.x"
+    "node": "24.x"
   }
 }
