@@ -95,8 +95,6 @@ export default async function handler(req, res) {
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      background: #f1f2f4;
       color: #1a1a2e;
       font-size: 13px;
     }
@@ -138,16 +136,16 @@ export default async function handler(req, res) {
       font-weight: 500;
       cursor: pointer;
       border: 1px solid #c9cccf;
-      background: #fff;
-      color: #333;
+      background: ##232C3E;
+      color: #FFF;
       text-decoration: none;
       display: inline-flex;
       align-items: center;
       gap: 5px;
     }
-    .btn:hover { background: #f6f6f7; }
-    .btn--primary { background: #111; color: #fff; border-color: #111; }
-    .btn--primary:hover { background: #333; }
+    .btn:hover { background: #232C3E; }
+    .btn--primary { background: #232C3E; color: #fff; border-color: #111; }
+    .btn--primary:hover { background: #232C3E; }
 
     .container { padding: 20px 24px; max-width: 1200px; }
 
@@ -263,7 +261,6 @@ export default async function handler(req, res) {
 
 <div class="topbar">
   <div class="topbar__left">
-    <div class="topbar__logo">HØV</div>
     <div>
       <div class="topbar__title">Waitlist Dashboard</div>
       <div class="topbar__sub">House of Vaulte · ${entries.length} entr${entries.length === 1 ? 'y' : 'ies'}</div>
