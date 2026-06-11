@@ -136,7 +136,7 @@ export default async function handler(req, res) {
       font-weight: 500;
       cursor: pointer;
       border: 1px solid #c9cccf;
-      background: ##232C3E;
+      background: #232C3E;
       color: #FFF;
       text-decoration: none;
       display: inline-flex;
@@ -144,7 +144,7 @@ export default async function handler(req, res) {
       gap: 5px;
     }
     .btn:hover { background: #232C3E; }
-    .btn--primary { background: #fff; color: #000; border-color: #111; }
+    .btn--primary { background: #232C3E; color: #fff; border-color: #111; }
     .btn--primary:hover { background: #232C3E; }
 
     .container { padding: 20px 24px; max-width: 1200px; }
