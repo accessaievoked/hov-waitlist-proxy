@@ -82,7 +82,7 @@ async function handleGet(req, res) {
   }
 
   const query = `{
-    metaobjects(type: "waitlist_entry", first: 250, sortKey: UPDATED_AT) {
+    metaobjects(type: "waitlist_entry", first: 250) {
       edges {
         node {
           id
